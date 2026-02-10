@@ -1,0 +1,130 @@
+# AION Frontend Playbook
+
+## Purpose
+
+This document defines how the AION frontend must be designed and built. It is written for Copilot, Cursor, and frontend developers so the UI always looks premium, enterprise‑grade, and production‑ready.
+
+AION is the **main operating system** for ecommerce stores. The UI must feel like Stripe, Shopify Admin, or a financial trading terminal — not a landing page or a demo app.
+
+---
+
+## Visual Philosophy
+
+* Dark, premium, enterprise look
+* Navy / charcoal background
+* Indigo or blue highlights
+* White numbers, muted labels
+* No bright colors, no gradients, no illustrations
+
+The UI must communicate:
+**Money, control, reliability, intelligence**
+
+---
+
+## Layout Rules
+
+* Left sidebar must always be visible
+* Main content uses grid layouts
+* Dense data — no big empty spaces
+* Tables preferred over large cards
+* Everything looks like a control panel
+
+---
+
+## Navigation
+
+Mandatory pages:
+
+* Dashboard
+* Orders
+* Products
+* Customers
+* Conversations
+* COD & Risk
+* Insights
+* Marketing
+* Settings
+
+Sidebar must be simple, icon + label, no animations.
+
+---
+
+## Core Components
+
+The frontend must include:
+
+* KPI cards (big numbers + small labels)
+* Data tables (sorting, filtering)
+* Line and bar charts
+* WhatsApp‑style chat UI
+* Activity logs / feeds
+* Status badges (COD, risk, delivery)
+
+---
+
+## Dashboard Design Rules
+
+The dashboard must answer in 5 seconds:
+
+1. How much money did I make today?
+2. Where is money leaking?
+3. What is AI doing right now?
+4. What needs attention?
+
+Must include:
+
+* Sales
+* Orders
+* COD pending
+* Failed deliveries
+* Messages
+* Live AI actions
+
+---
+
+## Conversations UI
+
+This is the emotional center of the product.
+It must show:
+
+* Customer messages
+* AI replies
+* Order details
+* COD buttons
+
+Must feel like a professional support system, not WhatsApp Web.
+
+---
+
+## UX Principles
+
+* Every screen must solve a real business problem
+* Users should not need Shopify for daily operations
+* No dead screens or fake empty states
+* Always show realistic data
+
+---
+
+## Performance & Quality
+
+* UI must be fast
+* Use loading skeletons
+* Never block on API
+* Real‑time updates where possible
+
+---
+
+## Forbidden
+
+* No marketing UI
+* No demo‑looking screens
+* No playful icons or emojis
+* No empty placeholders
+
+---
+
+## North Star
+
+When a merchant opens AION, they should think:
+
+> "This looks like software that runs real businesses."

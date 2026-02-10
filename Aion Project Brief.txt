@@ -1,0 +1,288 @@
+AION — AI Operations Manager for Ecommerce
+1. What AION Is
+
+AION is a primary operating system for ecommerce businesses. Merchants should be able to run their daily operations entirely inside AION, while platforms like Shopify, WooCommerce, etc. act only as data sources and checkout engines in the background.
+
+AION unifies:
+
+Orders
+
+Customers
+
+Products
+
+Conversations (WhatsApp, Web chat, Email)
+
+COD & Risk
+
+AI automation
+
+Owner insights
+
+Into one command center.
+
+The merchant should feel:
+
+“I open AION to run my store. Shopify just processes payments.”
+
+2. Business & Product Purpose
+
+AION exists to:
+
+Reduce operational chaos
+
+Reduce fake orders & COD losses
+
+Replace WhatsApp call centers
+
+Give owners real-time control
+
+Turn store data into decisions
+
+AION is not a chatbot. AION is not a plugin. AION is an AI-powered operations platform.
+
+3. Platforms Strategy
+
+Today: Shopify
+
+Future: WooCommerce, custom stores, marketplaces
+
+All platforms are treated as connectors. AION owns:
+
+Conversations
+
+Risk
+
+AI
+
+Analytics
+
+Operational state
+
+4. Non‑Negotiable Product Rules
+
+AION is the main dashboard — merchants should not need Shopify for daily work.
+
+AI never hallucinates — all answers must come from real store data or rules.
+
+WhatsApp is first‑class — this is not optional.
+
+Every action is logged — messages, AI decisions, order changes.
+
+Everything is real‑time — no stale data.
+
+Operations > Beauty — this is money software.
+
+Dark premium UI — Stripe, Linear, banking feel.
+
+5. Pages (What Must Exist)
+
+These pages are mandatory and must always exist.
+
+Dashboard
+
+Purpose: One‑screen business health. Shows:
+
+Sales
+
+Orders
+
+COD pending
+
+Messages
+
+AI actions
+
+Orders
+
+Purpose: Daily operations. Shows:
+
+Orders
+
+Status
+
+COD
+
+Courier
+
+AI actions
+
+Products
+
+Purpose: What is selling and what to promote. Shows:
+
+Products
+
+Inventory
+
+Sales
+
+AI marketing tools
+
+Customers
+
+Purpose: Who is buying and who is risky. Shows:
+
+History
+
+COD success
+
+Risk score
+
+Conversations
+
+Purpose: Replace WhatsApp agents. Shows:
+
+Live WhatsApp
+
+AI replies
+
+Order cards
+
+COD & Risk
+
+Purpose: Stop money leaks. Shows:
+
+Pending COD
+
+Auto‑canceled
+
+Blocked customers
+
+Money saved
+
+Insights
+
+Purpose: AI business brain. Allows:
+
+Ask questions
+
+View charts
+
+See AI explanations
+
+Marketing
+
+Purpose: Grow revenue. Generates:
+
+Descriptions
+
+Sale messages
+
+Campaigns
+
+Settings
+
+Purpose: Control & trust. Connects:
+
+Shopify
+
+WhatsApp
+
+Rules
+
+6. Frontend Rules
+
+Must feel like a paid enterprise SaaS
+
+No toy UI
+
+No demo‑looking screens
+
+Real numbers, tables, logs
+
+Fast and responsive
+
+Dark premium theme
+
+Stack:
+
+Next.js
+
+TypeScript
+
+Tailwind
+
+shadcn
+
+Recharts
+
+TanStack Table
+
+WebSockets
+
+7. Backend Rules
+
+Event‑driven
+
+Never block on AI
+
+Every action idempotent
+
+All external APIs (Shopify, WhatsApp) abstracted
+
+Webhooks always retriable
+
+Stack:
+
+Python
+
+FastAPI
+
+PostgreSQL
+
+Redis
+
+Celery
+
+8. AI Rules
+
+AI only formats and reasons — it does not invent data
+
+All prompts must be grounded in JSON from the database
+
+High‑risk actions (cancel, block) must be rule‑backed
+
+Stack:
+
+Local LLMs (LLaMA, Mistral)
+
+DistilBERT for intent
+
+Vector search for policies
+
+9. SaaS Quality Bar
+
+Multi‑tenant
+
+Secure tokens
+
+Audit logs
+
+Fast dashboards
+
+No broken states
+
+This is money software, not a side project.
+
+10. Scope Boundaries
+
+AION does NOT handle:
+
+Checkout
+
+Payments
+
+Taxes
+
+Themes
+
+These belong to ecommerce platforms.
+
+AION handles everything after the order is placed.
+
+11. North Star
+
+AION should make a merchant feel:
+
+“I trust this with my business.”
